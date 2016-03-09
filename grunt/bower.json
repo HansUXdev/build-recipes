@@ -1,0 +1,7 @@
+{
+  "name": "foundation-blog-theme",
+  "dependencies": {
+  	"foundation":"5.4.7"
+  },
+  "private": true
+}

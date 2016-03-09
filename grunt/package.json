@@ -1,0 +1,63 @@
+{
+  "name": "foundation-blog",
+  "description": "A Foundation 5 static blog/theme generator and boilerplate for Assemble,.",
+  "version": "0.1.1",
+  "homepage": "https://www.hansmcmurdy.com/",
+  "author": {
+    "name": "Hans McMurdy",
+    "url": "https://github.com/hansuxdev/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hansuxdev/foundation-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hansuxdev/foundation-blog/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hansuxdev/foundation-blog/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "assemble": "~0.4.37",
+    "grunt": "~0.4.4",
+    "grunt-autoshot": "^0.2.1",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-imagemin": "^0.9.1",
+    "grunt-contrib-jshint": "~0.9.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-pleeease": "^1.2.0",
+    "grunt-sass": "^0.16.1",
+    "grunt-sitemap": "^1.2.0",
+    "handlebars-helper-compose": "~0.2.12",
+    "handlebars-helper-lorem": "~0.1.0",
+    "handlebars-helper-prettify": "~0.2.1",
+    "load-grunt-tasks": "^0.4.0",
+    "lodash": "~2.4.1"
+  },
+  "private": true,
+  "keywords": [
+    "handlebars-helper-compose",
+    "handlebars-helper-lorem",
+    "handlebars-helper-prettify",
+    "foundation",
+    "assemble",
+    "blog generator",
+    "blog",
+    "boilerplate",
+    "component generator",
+    "grunt static site generator",
+    "handlebars",
+    "site generator",
+    "static site generator",
+    "templates",
+    "theme",
+    "yeoman static site generator"
+  ]
+}
