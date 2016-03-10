@@ -1,5 +1,6 @@
 var gulp            = require('gulp'),
-	jsonToSass 		= require('gulp-json-to-sass'),
+	  jsonToSass 		  = require('gulp-json-to-sass'),
+    sassvg           = require('gulp-sassvg'),
     $               = require('gulp-load-plugins')(),
     argv            = require('yargs').argv,
     isProduction    = !!(argv.production);
@@ -32,6 +33,19 @@ var PATHS = {
   pseudoElements: true, // Converts ::before to :before
   opacity: true,		// Filter for IE 8
 };
+
+
+
+var sassvg = require('gulp-sassvg');
+ 
+gulp.task('sassvg', function(){
+    return gulp.src('./path/to/images/folder/**/*.svg') 
+        .pipe(sassvg({
+          outputFolder: './sassvg/', // IMPORTANT: this folder needs to exist
+          optimizeSvg: true // true (default) means about 25% reduction of generated file size, but 3x time for generating the _icons.scss file
+        }));
+});
+
 
 // Compile Sass into CSS
 // In production, the CSS is compressed
