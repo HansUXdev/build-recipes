@@ -1,7 +1,7 @@
 {
-  "name": "gulp-basic",
+  "name": "foundation-app-build",
   "version": "1.0.0",
-  "description": "Basic Setup for scalable build procress",
+  "description": "Basic Setup for scalable app build procress",
   "main": "index.js",
   "scripts": {
     "test": "test"

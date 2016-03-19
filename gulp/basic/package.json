@@ -15,7 +15,13 @@
     "gulp-babel": "^6.1.2",
     "gulp-if": "^1.2.5",
     "gulp-load-plugins": "^0.10.0",
+    "gulp-mongo-populator": "^1.0.0",
+    "gulp-mongodb-data": "^1.0.2",
     "require-dir": "^0.3.0",
     "yargs": "^3.8.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7"
   }
 }
